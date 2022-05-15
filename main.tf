@@ -101,10 +101,6 @@ gateway_ip_configuration {
       ip_addresses = ["1.1.1.1"      ]
     }
 
-}
-
-
-
 
   backend_http_settings {
     name                  = "HTTPSetting"
@@ -140,3 +136,4 @@ gateway_ip_configuration {
         "/container/*",
       ]
     }
+  }
