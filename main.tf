@@ -122,7 +122,7 @@ gateway_ip_configuration {
 // This is used for implementing the URL routing rules
  request_routing_rule {
     name               = "RoutingRuleA"
-    rule_type          = "PathBasedRouting"
+    rule_type          = "Basic"
     http_listener_name = "gateway-listener"
   }
 
