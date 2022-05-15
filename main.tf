@@ -140,5 +140,3 @@ gateway_ip_configuration {
         "/container/*",
       ]
     }
-  }
-  }
