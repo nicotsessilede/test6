@@ -123,7 +123,6 @@ gateway_ip_configuration {
  request_routing_rule {
     name               = "RoutingRuleA"
     rule_type          = "PathBasedRouting"
-    url_path_map_name  = "RoutingPath"
     http_listener_name = "gateway-listener"
   }
 
