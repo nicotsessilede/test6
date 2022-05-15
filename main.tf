@@ -97,7 +97,7 @@ gateway_ip_configuration {
 // of the Azure Application Gateway
 
   backend_address_pool{
-      name  = "videopool"
+      name  = "imagepool"
       ip_addresses = ["1.1.1.1"      ]
     }
 
@@ -127,13 +127,5 @@ gateway_ip_configuration {
     http_listener_name = "gateway-listener"
   }
 
-
-    path_rule {
-      name                          = "ImageRoutingRule"
-      backend_address_pool_name     = "videopool"
-      backend_http_settings_name    = "HTTPSetting"
-      paths = [
-        "/container/*",
-      ]
     }
-  }
+    
